@@ -1,0 +1,27 @@
+.column {
+  float: left;
+  margin: 20px;
+}
+
+img {
+  width: 300px;
+}
+
+.column p {
+  color: blue;
+}
+
+.column img {
+  border: 5px solid red;
+}
+
+.header {
+  text-align: center;
+  font-family: sans-serif;
+  color: lightblue;
+  background-color: gray;
+}
+
+.header h2 {
+  color: darkred;
+}
