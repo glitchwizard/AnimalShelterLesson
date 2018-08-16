@@ -1,10 +1,11 @@
 .column {
   float: left;
-  margin: 20px;
+  max-width: 30%;
+  margin: 1%;
 }
 
 img {
-  width: 300px;
+  width: 100%;
 }
 
 .column p {
@@ -12,6 +13,7 @@ img {
 }
 
 .column img {
+  width: 100%;
   border: 5px solid red;
 }
 
@@ -24,4 +26,46 @@ img {
 
 .header h2 {
   color: darkred;
+}
+
+.list1 {
+  width: 200px;
+  margin: auto;
+  text-align: left;
+  border: 20px;
+}
+
+#id1 {
+  display: none;
+}
+#id2  {
+  display: block;
+}
+
+@media screen and (max-width: 777px) {
+  body {
+    background-color: lightblue;
+  }
+  .column {
+    float: none;
+    width: 95%;
+    margin: 10px;
+    max-width: 100%;
+  }
+  .column img {
+    width: 100%;
+    border-width: thick;
+    border-radius: 10px;
+    border-color: blue;
+    border-style: double;
+  }
+
+  #id1  {
+    display: block;
+  }
+
+  #id2 {
+    display: none;
+  }
+
 }
