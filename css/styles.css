@@ -42,9 +42,12 @@ img {
   display: block;
 }
 
-#darkTheme {
-  background-color: black;
+.DarkTheme {
+  body background-color: black;
   color: gainsboro;
+}
+
+.LightTheme {
   display: none;
 }
 

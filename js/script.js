@@ -1,12 +1,15 @@
 $(document).ready(function() {
-    $("button#DarkTheme").click(function() {
-        $("body#LightTheme").toggle();
-        $("body").removeClass();
-        $("body").addClass("DarkTheme");
+    $(".clickable").click(function() {
+        $("#LightTheme").toggle();
+        $("#DarkTheme").toggle();
     )}
 
+    $("button#DarkTheme").click(fucntion() {
+        $("body").removeClass();
+        $("body").addClass("DarkTheme");
+    })
+
     $("button#LightTheme").click(function() {
-        $("body#LightTheme").toggle();
         $("body").removeClass();
     })
 });
