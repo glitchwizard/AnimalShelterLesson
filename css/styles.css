@@ -30,9 +30,9 @@ img {
 
 .list1 {
   width: 200px;
-  margin: auto;
+  margin: 10px;
   text-align: left;
-  border: 
+  border: ;
 }
 
 #id1 {
@@ -40,6 +40,12 @@ img {
 }
 #id2  {
   display: block;
+}
+
+#darkTheme {
+  background-color: black;
+  color: gainsboro;
+  display: none;
 }
 
 @media screen and (max-width: 777px) {
